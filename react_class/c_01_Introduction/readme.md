@@ -112,7 +112,7 @@ function App(){
         //only we can return the single element so that we have to use the **<></>**
         
 
-        <Header ><Header/>
+        <Header ></Header>
         or 
         <Header/>
 
