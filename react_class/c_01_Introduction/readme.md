@@ -33,7 +33,7 @@
 - npm create vite@latest(check the vite doc)
 - project name
 - select JS
-- cd my-react- app
+- cd my-react
 - npm install
 - npm run dev(to start development server)
 
