@@ -2,9 +2,18 @@
 ```
 //List.jsx
 function List(){
-    const fruits =["apple","banana","graps","mango"]
-    const listItems=fruits.map(fruit=> <li>{fruit}</li>)
-    return(<ul> {listItems}</ul>);
+    //const fruits =["apple","banana","graps","mango"]
+    const fruits = [{name:"apple", calories:95}, 
+                    {name:"banana",calories:45}, 
+                    {name:"graps", calories:105}, 
+                    {name:"mango", calories:159}
+                    ];
+    fruits.sort();
+    const listItems=fruits.map(fruit=> <li>key={fruit.nae}</li>);
+    return(
+        <!-- <ul> {listItems}</ul> -->
+        <ol>{listItems} </ol>
+        );
 }
 export default List
 
